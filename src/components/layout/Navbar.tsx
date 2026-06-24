@@ -84,7 +84,7 @@ export const Navbar = () => {
           </button>
           <Link
             to="/contact"
-            className="hidden rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition-transform hover:scale-[1.03] md:inline-block"
+            className="hidden rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03] md:inline-block"
           >
             Hire me
           </Link>
@@ -127,7 +127,7 @@ export const Navbar = () => {
                 <li className="p-2">
                   <Link
                     to="/contact"
-                    className="block w-full rounded-xl bg-foreground px-4 py-3 text-center text-sm font-medium text-background"
+                    className="block w-full rounded-xl bg-primary px-4 py-3 text-center text-sm font-medium text-primary-foreground"
                   >
                     Hire me
                   </Link>

@@ -2,6 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
+import { CustomCursor } from "./CustomCursor";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const Layout = () => {
@@ -12,6 +13,7 @@ export const Layout = () => {
 
   return (
     <div className="flex min-h-screen flex-col">
+      <CustomCursor />
       <Navbar />
       <main className="flex-1">
         <AnimatePresence mode="wait">
